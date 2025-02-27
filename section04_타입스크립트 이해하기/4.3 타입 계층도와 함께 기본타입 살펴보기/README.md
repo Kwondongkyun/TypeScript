@@ -72,11 +72,17 @@
   }
   ```
 
-- `void` 타입의 변수에 `undefined`의 값(업 캐스팅)
+- `void` 타입의 변수에는 보통 `undefined`만 할당 가능 (업 캐스팅)
   ```tsx
   let voidVar: void = undefined;
   ```
+  - `tsconfig.json`의 `strictNullChecks` 옵션이 `false`일 경우 `null` 할당 가능
+    ```tsx
+    let y: void;
+    y = null; // ✅ strictNullChecks가 false일 때만 가능
+    ```
 
+  
 - `void` 타입 함수에서 `undefined` 반환
   ```tsx
   function voidFunc(): void {
