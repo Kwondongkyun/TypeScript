@@ -28,7 +28,7 @@ function voidExam() {
   let numVar: null = null;
   voidVar = numVar; // strictNullChecks: false일 때만 가능
 }
-
+ 
 // Any 타입
 function anyExam() {
   let unknownVar: unknown;
