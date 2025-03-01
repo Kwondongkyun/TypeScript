@@ -166,13 +166,13 @@ type IntersectionType = Dog & Person;
 
 #### `IntersectionType`의 변수 정의
 - `IntersectionType`의 객체는 **모든 프로퍼티**(`name`, `color`, `language`)를 포함해야 합니다.
-```tsx
-let intersection: IntersectionType = {
-  name: "Charlie",
-  color: "Brown",
-  language: "English",
-};
-```
+  ```tsx
+  let intersection: IntersectionType = {
+    name: "Charlie",
+    color: "Brown",
+    language: "English",
+  };
+  ```
 
 ---
 
