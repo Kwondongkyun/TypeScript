@@ -57,7 +57,7 @@ function login(user: User) {
 - 특정 프로퍼티(`kickCount`, `point`, `visitCount`)가 존재하는지 여부로 타입을 좁혀야 한다.
 - 직관적이지 않으며, 유지보수가 어렵다.
 
----
+#
 
 ### ✅ 개선: 서로소 유니온 타입 활용
 
